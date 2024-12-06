@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <title>Uma noite qualquer</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="garotalendo.avif" alt="">
+            <p>Era uma noite de como todas as outras, você se senta proxima de uma janela para se aventurar em um de seus milhares de livros. Depois de algumas horas lendo você começa a ouvir barulhos vindo do andar de baixo</p>
+            <button class="btn-proximo" data-proximo="1">Descer para ver o que era o barulho</button>
+            <button class="btn-proximo" data-proximo="2">Continuar lendo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você desce lentamente as escadas e percebe que a porta da frente esta entre aberta, depois de fecha-la mais um barulho surge da cozinha.</p>
+            <button class="btn-proximo" data-proximo="3">Ir ate a cozinha</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você continua lendo seu livro sem se preocupar com o barulho, um tempo depois você sente uma mão com um pano cobrindo sua boca, e logo apos apaga.....</p>
+            <button class="btn-proximo" data-proximo="4">Fim da historia</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Na cozinha não parece ter nada de estranho, mas analisando melhor, é possivel ver que uma das facas do seu faqueiro esta faltando. </p>
+            <button class="btn-proximo" data-proximo="5">Pegar uma faca para se proteger</button>
+            <button class="btn-proximo" data-proximo="6">Voltar para o quarto e chamar a policia</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="faca.jpg" alt="">
+            <p>Antes mesmo de você pegar a faca uma mão com um pano cobrindo sua boca, e logo apos apaga.....</p>
+            <button class="btn-proximo" data-proximo="7">Fim da historia</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <img src="policia-chegando.jpg" alt="">
+            <p>Você sobe as escadas correndo e se tranca no seu e chama a policia. Depois de mais ou menos uns 5 minutos a policia chega e consegue prender o homem que havia envadido sua casa. Você sobrevive</p>
+            <button class="btn-proximo" data-proximo="8">Fim da historia</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
